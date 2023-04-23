@@ -1,38 +1,212 @@
-.App {
-  text-align: center;
+body{
+  background-image: linear-gradient(to right,  #6eda78 ,#ffa200  );
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.MovePosition{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-content: center;
+ 
+}
+.btn_MovePosition{
+  height: 200px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 15px;
+ 
+}
+.btn_left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 250px;
+  float: right ;
+  border: none;
+  border-radius: 15px;
+  
+}
+.btn_right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 250px;
+  float: left ;
+  border: none;
+  border-radius: 15px;
+
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.triangle1{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 75px 100px 75px 0;
+  border-color: transparent #bbb transparent transparent;
+}
+.triangle2{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 75px 0 75px 100px;
+  border-color: transparent transparent transparent #bbb;
+}
+.triangle3{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 75px 100px 75px;
+  border-color: transparent transparent #bbb transparent;
+}
+.triangle4{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 100px 75px 0 75px;
+  border-color: #bbb transparent transparent transparent;
+}
+.Textbox_left{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Textbox_right{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.Textbox1{
+  padding: 10px;
+  background: greenyellow;
+  border-radius: 70px;
+  margin: 0px -400px 0px 0px;
+}
+.Textbox2{
+  padding: 10px;
+  background: greenyellow;
+  border-radius: 70px;
+  margin: 0px 0px 0px -370px;
+}
+.Textbox3{
+  padding: 10px;
+  background: greenyellow;
+  border-radius: 70px;
+  margin: 0px 0px 0px 0px;
+}
+.line_1{
+  margin-bottom: 20px;
+}
+.col_2{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.col_5{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.btn_fomat1{
+  height: 180px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 15px;
+  float: right ;
+}
+.btn_fomat2{
+  height: 180px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 15px;
+}
+.btn_fomat3{
+  height: 180px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 15px;
+}
+.btn_fomat4{
+  height: 180px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 15px;
+  float: right ;
+}
+.btn_fomat5{
+  height: 180px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 15px;
+}
+.btn_fomat6{
+  height: 180px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 15px;
+  
+}
+.Format1{
+  height: 100px;
+  width: 100px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.Format2{
+  width: 100px; 
+  height: 100px; 
+  background-color: #bbb;
+  
+}
+.Format3{
+  width: 200px; 
+  height: 100px; 
+  background-color: #bbb;
+}
+.Format4{
+  width: 200px; 
+  height: 100px; 
+  background: #bbb; 
+  -moz-border-radius: 100px / 50px; 
+  -webkit-border-radius: 100px / 50px; 
+  border-radius: 100px / 50px;
+}
+.Format5{
+  width: 200px; 
+  height: 100px;
+  background: #bbb;
+  -webkit-transform: skew(20deg); 
+  -moz-transform: skew(20deg); 
+  -o-transform: skew(20deg);
+  transform: skew(20deg);
+}
+.Format6{
+  border-bottom: 80px solid #bbb;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	height: 0;
+	width: 200px;
 }
